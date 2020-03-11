@@ -38,8 +38,8 @@ def alan_kay_is_known_for
           :languages => ["C"]
         }
      }
-     
-  programmer_hash[:alan_kay][:known_for] 
+
+  programmer_hash[:alan_kay][:known_for]
 end
 
 alan_kay_is_known_for
@@ -95,11 +95,11 @@ def adding_matz
     languages:
       ["LISP", "C"]
     }
-    
+
   programmer_hash
-    
-    
-# Here is the learn.co way of doing it.    
+
+
+# Here is the learn.co way of doing it.
 # programmer_hash[:yukihiro_matsumoto] = {:known_for => "Ruby", :languages => ["LISP", "C"]}
 # programmer_hash
 end
@@ -124,7 +124,7 @@ def changing_alan
      }
      #change what Alan Kay is :known_for to the value of the alans_new_info variable.
      alans_new_info = "GUI"
-     
+
   programmer_hash[:alan_kay][:known_for] = "GUI"
   programmer_hash
 
